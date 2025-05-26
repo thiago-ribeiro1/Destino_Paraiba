@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Próximo Destino: Paraíba</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="assets/img/pb2.png" type="image/x-icon" />
+
+    <meta
+      name="keywords"
+      content="turismo, paraíba, sertão, interior paraíba, comidas típicas, cultura, história, belezas naturais, nordeste brasileiro, aventura, ecoturismo"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    /> 
+    <meta property="og:image" content="./assets/img/bandeira-pb.png">
+
+    <!-- ========== CSS ========== -->
+    <link href="./styles/font-awesome.min.css" rel="stylesheet" />
+    <link href="./styles/responsive.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./styles/3Dgallery.css" />
+
+    <!-- ========== CSS Principal ========== -->
+    <link rel="stylesheet" href="./styles/styles.css" />
+
+  </head>
+
+  <body>
+    <header>
+      <div class="logo">
+        <img src="assets/img/pb.png" alt="Logo Paraíba" />
+      </div>
+      <nav>
+        <a href="index.html">HOME</a>
+        <div class="dropdown">
+          <a href="#">DESTINOS</a>
+          <div class="submenu">
+            <a href="pages/curimatau.html">Curimataú</a>
+            <a href="pages/lajedo-pai-mateus.html">Lajedo de Pai Mateus</a>
+            <a href="pages/sousa.html">Sousa</a>
+            <a href="pages/cachoeira-do-roncador.html">Cachoeira do Roncador</a>
+            <a href="pages/inga.html">Ingá</a>
+          </div>
+        </div>
+        <div class="dropdown2">
+          <a href="#">EXPLORE</a>
+          <div class="submenu">
+            <a href="pages/caminhos-rio-pb-norte.html">Climb Adventure</a>
+          </div>
+        </div>
+      </nav>
+     
+      <div class="hamburger" onclick="toggleMenu(this)">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      
+      <div class="mobile-menu" id="mobileMenu">
+        <a href="index.html">HOME</a>
+        <div class="mobile-dropdown">
+          <a href="#destinos">DESTINOS</a>
+          <div class="submenu">
+            <a href="pages/curimatau.html">Curimataú</a>
+            <a href="pages/lajedo-pai-mateus.html">Lajedo de Pai Mateus</a>
+            <a href="pages/sousa.html">Sousa</a>
+            <a href="pages/cachoeira-do-roncador.html">Cachoeira do Roncador</a>
+            <a href="pages/inga.html">Ingá</a>
+          </div>   
+        </div>
+        <a href="pages/caminhos-rio-pb-norte.html">CLIMB ADVENTURE</a>
+
+      </div>      
+    </header>
+
+  <!-- Banner Vídeo -->
+    <div class="banner-area responsive-auto-height ds-fonts text-light video-bg-live bg-fixed" style="background-image: url(assets/img/2440x1578.png);">
+      <div class="player" data-property="{videoURL:'https://www.youtube.com/watch?v=yz9q_bN1CDY',containment:'.video-bg-live', showControls:false, autoPlay:true, zoom:0, loop:true, mute:true, startAt:0, stopAt:143, opacity:2, quality:'deafult', playOnlyIfVisible: false
+}"></div>
+    </div>
+
+    <!-- Galeria 3D com GSAP -->
+    <div class="stage">
+      <div class="logo-img">
+        <img src="assets/img/pb.png" alt="Logo Paraíba" /> 
+      </div>
+      <div class="gallery-container">
+        <div class="ring">
+          <div class="img"></div>
+          <div class="img"></div>
+          <div class="img"></div>
+          <div class="img"></div>
+          <div class="img"></div>
+          <div class="img"></div>
+          <div class="img"></div>
+          <div class="img"></div>
+          <div class="img"></div>
+          <div class="img"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Conteúdo abaixo da galeria -->
+    <div class="main-content">
+      <div class="text">
+        <h1>Próximo Destino</h1>
+        <h2>Paraíba</h2>
+        <p>
+          Descubra os encantos do interior da Paraíba com este guia completo
+          repleto de informações, imagens e localização dos principais destinos.
+        </p>
+      </div>
+      <div class="image">
+        <img
+          src="assets/img/cactus_cabaceiras.jpg"
+          alt="Paisagem da Paraíba"
+        />
+      </div>
+    </div>
+
+    <section class="grid-section">
+      <h2><span>Descubra a</span> <strong>PARAÍBA</strong></h2>
+    </section>
+
+    <section class="img-turismo fade-in">
+      <img src="assets/img/turismo.jpg" alt="Imagem Turismo Paraíba" />
+    </section>
+
+    <section class="svg-vector fade-in">
+      <img src="assets/img/8961379_4056358.svg" alt="Ícone decorativo" />
+    </section>
+
+    <section class="grid-section" id="destinos">
+      <h2><span>Destinos</span> <strong>PARAÍBA</strong></h2>
+    </section>
+
+    <div class="cards-container">
+      <div class="card">
+        <a href="pages/curimatau.html">
+          <img src="assets/img/curimatau.jpg" />
+        </a>
+        <h3>Curimataú</h3>
+        <p>
+          Cidades do Curimataú se destacam pelas belezas naturais,
+          religiosidade e esportes radicais
+        </p>
+      </div>
+      <div class="card">
+        <a href="pages/lajedo-pai-mateus.html">
+          <img src="assets/img/gsap-1.png" />
+        </a>
+        <h3>Lajedo de Pai Mateus</h3>
+        <p>Lajedo do Pai Mateus é uma formação rochosa única nas Américas</p>
+      </div>
+      <div class="card">
+        <a href="pages/sousa.html">
+          <img src="assets/img/sertao.jpg" />
+        </a>
+        <h3>Sousa</h3>
+        <p>
+          Sertão paraibano tem Histórias, paisagens exuberantes e pegadas de
+          dinossauros
+        </p>
+      </div>
+      <div class="card">
+        <a href="pages/cachoeira-do-roncador.html">
+          <img src="assets/img/cachoeira-do-roncador-2.jpg" />
+        </a>
+        <h3>Cachoeira do Roncador</h3>
+        <p>
+          o Brejo Paraibano oferece ótimas opções
+          de trilhas e passeios, como a Cachoeira do
+          Roncador
+        </p>
+      </div>
+      <div class="card">
+        <a href="pages/inga.html">
+          <img src="assets/img/Pedra-do-Inga.jpg" />
+        </a>
+        <h3>Ingá</h3>
+        <p>
+          Com inscrições rupestres milenares que atraem turistas e pesquisadores de todo o mundo
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+    <div class="copyright">
+      &copy; Copyright <strong><span>Unifacisa</span></strong>. Todos os direitos reservados
+    </div>
+    <div class="credits">
+      <p>Desenvolvido por Alexsandra Luna | Bruna Rafaela | Diogo Spínola | João Vitor | Thiago Ribeiro</p>
+    </div>
+  </footer><!-- Fim do Footer -->
+
+    <button class="scroll-top" onclick="scrollToTop()">↑</button>
+
+    <!-- Scripts -->
+    <script src="./js/jquery-1.12.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/gsap.min.js"></script>
+    <script src="./js/YTPlayer.min.js"></script>  
+    <script src="./js/main.js"></script>
+
+  </body>
+</html>

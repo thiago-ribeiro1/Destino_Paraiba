@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Próximo Destino: Paraíba</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="../assets/img/pb2.png"
+      rel="shortcut icon"
+      type="image/x-icon"
+    />
+    <link href="../styles/styles.css" rel="stylesheet" />
+    <link href="../styles/3Dgallery.css" rel="stylesheet" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <meta property="og:image" content="../assets/img/bandeira-pb.png" />
+  </head>
+
+  <body>
+    <header>
+      <div class="logo">
+        <img src="../assets/img/pb.png" alt="Logo Paraíba" />
+      </div>
+      <nav>
+        <a href="../index.html">HOME</a>
+        <div class="dropdown">
+          <a href="#">DESTINOS</a>
+          <div class="submenu">
+            <a href="../pages/curimatau.html">Curimataú</a>
+            <a href="../pages/lajedo-pai-mateus.html">Lajedo de Pai Mateus</a>
+            <a href="../pages/sousa.html">Sousa</a>
+            <a href="../pages/cachoeira-do-roncador.html"
+              >Cachoeira do Roncador</a
+            >
+            <a href="../pages/inga.html">Ingá</a>
+          </div>
+        </div>
+        <div class="dropdown2">
+          <a href="#">EXPLORE</a>
+          <div class="submenu">
+            <a href="../pages/caminhos-rio-pb-norte.html">Climb Adventure</a>
+          </div>
+        </div>
+      </nav>
+
+      <div class="hamburger" onclick="toggleMenu(this)">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+
+      <div class="mobile-menu" id="mobileMenu">
+        <a href="../index.html">HOME</a>
+        <div class="mobile-dropdown">
+          <a href="../index.html#destinos" class="submenu-toggle">DESTINOS</a>
+          <div class="submenu">
+            <a href="../pages/curimatau.html">Curimataú</a>
+            <a href="../pages/lajedo-pai-mateus.html">Lajedo de Pai Mateus</a>
+            <a href="../pages/sousa.html">Sousa</a>
+            <a href="../pages/cachoeira-do-roncador.html"
+              >Cachoeira do Roncador</a
+            >
+            <a href="../pages/inga.html">Ingá</a>
+          </div>
+        </div>
+        <a href="./caminhos-rio-pb-norte.html">CLIMB ADVENTURE</a>
+      </div>
+    </header>
+
+    <div class="container">
+      <div class="content-wrapper">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="../assets/img/climb_1.jpg" alt="Imagem curimataú" />
+            </div>
+            <div class="swiper-slide">
+              <img src="../assets/img/climb_2.jpg" alt="Imagem curimataú" />
+            </div>
+            <div class="swiper-slide">
+              <img src="../assets/img/climb_3.jpg" alt="Imagem curimataú" />
+            </div>
+            <div class="swiper-slide">
+              <img src="../assets/img/climb_4.jpg" alt="Imagem curimataú" />
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+
+        <div class="text">
+          <h1>Conheça a Expedição "Caminhos do Rio Paraíba do Norte"</h1>
+          <p>
+            A Expedição <b>Caminhos do Rio Paraíba do Norte</b> é uma iniciativa
+            de turismo ecológico e comunitário que visa promover o
+            desenvolvimento sustentável na região do Cariri paraibano.
+            Organizada pela empresa Climb Adventure em parceria com o Sebrae/PB,
+            a expedição percorre um trajeto de aproximadamente 140 km ao longo
+            do Rio Paraíba do Norte, passando por sete municípios: Camalaú,
+            Congo, Caraúbas, Barra de São Miguel, São Domingos do Cariri,
+            Boqueirão e Cabaceiras .​ O projeto tem como objetivo consolidar uma
+            trilha de longo curso na região, integrando-a à Rede Brasileira de
+            Trilhas de Longo Curso. Durante a expedição, os participantes, que
+            incluem trilheiros experientes de diversas partes do Brasil,
+            envolvem-se em atividades como oficinas de primeiros socorros,
+            orientação na mata e uso de astros para navegação. Além disso, há
+            uma forte interação com as comunidades locais, valorizando a cultura
+            regional e fomentando a economia criativa.​ A iniciativa destaca-se
+            por seu compromisso com a conservação ambiental e a valorização dos
+            recursos naturais da região, promovendo o turismo de base
+            comunitária e rural. O apoio do Sebrae/PB tem sido fundamental na
+            mobilização dos gestores municipais e na formação de condutores
+            locais, fortalecendo o sentimento de pertencimento e estimulando o
+            desenvolvimento territorial sustentável.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer" class="footer">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Unifacisa</span></strong
+        >. Todos os direitos reservados
+      </div>
+      <div class="credits">
+        <p>
+          Desenvolvido por Alexsandra Luna | Bruna Rafaela | Diogo Spínola |
+          João Vitor | Thiago Ribeiro
+        </p>
+      </div>
+    </footer>
+    <!-- Fim do Footer -->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="../js/main.js"></script>
+
+    <!-- Swiper -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        new Swiper(".mySwiper", {
+          loop: true,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+      });
+    </script>
+  </body>
+</html>
