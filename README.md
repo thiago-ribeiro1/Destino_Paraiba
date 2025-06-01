@@ -5,6 +5,17 @@
 
 ---
 
+## Pré-Visualização
+
+![Image](https://github.com/user-attachments/assets/311f3b4c-768b-4199-b4f8-7b34f80913f0)
+<br>
+![Image](https://github.com/user-attachments/assets/9acbbc80-f890-4a40-a748-a50acaabaf9a)
+<br>
+![Image](https://github.com/user-attachments/assets/312c8627-e356-4a2f-860e-e05c5887f4bc)
+<br>
+
+---
+
 ## 📌 Descrição
 
 **Destino Paraíba** é um website interativo que visa valorizar e promover destinos turísticos do interior paraibano. O foco está em ampliar o olhar para além do litoral, revelando atrativos naturais, culturais e históricos de regiões como o Curimataú, Sertão e Cariri.
