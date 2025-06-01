@@ -8,11 +8,11 @@
 ## Pré-Visualização
 
 ![Image](https://github.com/user-attachments/assets/311f3b4c-768b-4199-b4f8-7b34f80913f0)
-<br>
+<br><br>
 ![Image](https://github.com/user-attachments/assets/9acbbc80-f890-4a40-a748-a50acaabaf9a)
-<br>
+<br><br>
 ![Image](https://github.com/user-attachments/assets/312c8627-e356-4a2f-860e-e05c5887f4bc)
-<br>
+<br><br>
 
 ---
 
